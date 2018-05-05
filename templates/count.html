@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+count page: {{ count }}
+<h1>Your Text</h1>
+{{ fulltext }}
+
+<h1>Word Dictionary</h1>
+
+{% for word, wordcount in worddictionary%}
+
+{{ word }} ==> {{ wordcount }} <br />
+
+{% endfor %}
+
+
+</body>
+</html>
+
